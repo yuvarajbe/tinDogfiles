@@ -1,0 +1,172 @@
+body {
+  font-family: "Montserrat"
+}
+
+
+#title {
+  background-color: #ff4c68;
+  text-align: center;
+  color: #fff;
+}
+
+.firstline {
+padding: 30px auto 10px auto;
+font-family: 'Montserrat', sans-serif;
+font-size: 3rem;
+line-height: 1.5;
+font-weight: 900;
+}
+
+.container-fluid{
+  padding: 3% 15% 7% ;
+}
+h2{
+  font-family: font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+h3{
+font-family: 'Montserrat', sans-serif;
+font-weight: 700;
+font-size: 1.5rem;
+}
+
+p{
+  color: #8f8f8f;
+}
+/* Navigation bar */
+.navbar{
+    padding:0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Download Buttons */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* title image */
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%
+}
+
+/* features */
+#features{
+  padding: 7% 10%;
+  background-color: white;
+  position: relative;
+
+}
+.feature-box{
+  text-align: center;
+  padding: 4.5%;
+}
+
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+/* testimonials */
+#testimonials{
+  background-color: #ef8172;
+  text-align: center;
+  color: #fff;
+}
+
+.testimonial-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* PRESS */
+#press{
+  text-align: center;
+  background-color:  #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing{
+  padding:100px;
+  text-align: center;
+}
+
+.pricing-coloumn{
+  padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+
+#title{
+  text-align:center;
+
+}
+
+.title-image{
+  transform: rotate(0);
+  position: static;
+}
+
+}
+
+/* Call to Acttion */
+
+#cta{
+  text-align: center;
+  background-color: #ff4c68;
+    color:white;
+  padding: 7% 0 3%;
+}
+
+.call{
+  margin:0 22%;
+  line-height: 1.5;
+  font-size: 2.5rem;
+}
+
+#footer{
+  padding: 50px ;
+  text-align: center;
+}
+
+.socialicons{
+  margin: 2% 5%;
+}
+
+.sicons{
+  margin: 0 1.5%;
+}
